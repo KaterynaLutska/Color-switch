@@ -28,15 +28,17 @@ function bodyColor() {
     return;
   }
   btnStartIsActive = true;
+  refs.buttonStart.setAttribute("disabled", "true");
   intervalId = setInterval(() => {
     refs.body.style.backgroundColor =
-      colors[`${randomIntegerFromInterval(0, colors.length - 1)}`];
+      colors[randomIntegerFromInterval(0, colors.length - 1)];
   }, 1000);
   console.log("start");
 }
 
 function bodyColorStop() {
   btnStartIsActive = false;
+  refs.buttonStart.removeAttribute("disabled");
   clearInterval(intervalId);
   console.log("stop");
 }
