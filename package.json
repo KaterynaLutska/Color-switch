@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AleksaHrevtsova/weather-app.git"
+    "url": ""
   },
   "keywords": [],
   "author": "Kateryna Lutska",
@@ -45,8 +45,5 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.1.4"
-  },
-  "bugs": {
-    "url": "https://github.com/AleksaHrevtsova/weather-app/issues"
   }
 }
